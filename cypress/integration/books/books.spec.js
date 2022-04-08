@@ -37,7 +37,7 @@ context("API Requests", () => {
   it("Get my book", () => {
     //Send GET Request to get the book I've created on the first test
     cy.request("GET", bookId).then((response) => {
-      //Verification that title matches the title created randomly in beforeEach
+      //Verification that title matches the title created randomly in before() hook
       expect(response.body.title).to.eq(title);
     });
   });
