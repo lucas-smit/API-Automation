@@ -1,5 +1,7 @@
 {
     "GET": "https://f4hatlr72b.execute-api.us-east-1.amazonaws.com/production/",
+    "PUT": "https://f4hatlr72b.execute-api.us-east-1.amazonaws.com/production/",
+    "DELETE": "https://f4hatlr72b.execute-api.us-east-1.amazonaws.com/production/",
     "GET ALL": "https://f4hatlr72b.execute-api.us-east-1.amazonaws.com/production/books",
     "POST": "https://f4hatlr72b.execute-api.us-east-1.amazonaws.com/production/books"
 }
